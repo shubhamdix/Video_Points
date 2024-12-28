@@ -1,0 +1,192 @@
+nav{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  nav .text{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 7px 20px;
+    border-radius: 5px;
+  }
+
+  nav .text:hover{
+    border: solid 2px white;
+  }
+
+  .container{
+    background-color: rgb(119, 114, 114);
+    height: 90vh;
+    width: 204vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.video-link-box{
+  border: solid 4px white;
+  height: 200px;
+  width: 200px;
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*.video-links{
+  border: solid 4px white;
+  font-size: larger;
+  padding: 10px 40px;
+  
+}*/
+
+.video-link-btn{
+  background-color: rgb(185, 24, 64);
+  color: white;
+  
+  padding: 10px 40px;
+  border: solid 4px white;
+  border-radius: 10px;
+  font-size: larger;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /*margin-left: -50px;*/
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+.video-link-btn:hover, button:active{
+  background-color: white;
+  color: rgb(39, 39, 66);
+  border: solid 4px black;
+  
+}
+
+
+
+ .profile-btn{
+  
+  background-color: rgb(34, 34, 63);
+  color: white;
+  
+  padding: 10px 40px;
+  border: solid 4px white;
+  border-radius: 10px;
+  font-size: larger;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /*margin-left: -50px;*/
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.profile-btn:hover, button:active{
+  background-color: white;
+  color: rgb(39, 39, 66);
+  border: solid 4px black;
+  
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.vid{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 400px;
+}
+
+
+
+
+.back-btn{
+  background-color: rgb(34, 34, 63);
+  color: white;
+  margin-left: 500px;
+  margin-bottom: 500px;
+  padding: 10px 40px;
+  border: solid 4px white;
+  border-radius: 10px;
+  font-size: larger;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /*margin-left: -50px;*/
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+.back-btn:hover, button:active{
+  background-color: white;
+  color: rgb(39, 39, 66);
+  border: solid 4px black;
+  
+}
+
+.points-box{
+  height: 200px;
+  width: 300px;
+  border: solid 4px white;
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+p{
+  color: white;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 4px white;
+  padding: 10px 20px;
+  background-color: rgb(26, 70, 100);
+}
+
+.home-btn{
+  background-color: rgb(34, 34, 63);
+  color: white;
+  
+  padding: 10px 40px;
+  border: solid 4px white;
+  border-radius: 10px;
+  font-size: larger;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /*margin-left: -50px;*/
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-btn:hover, button:active{
+  background-color: white;
+  color: rgb(39, 39, 66);
+  border: solid 4px black;
+  
+}
+
+.home-btn-box{
+  display: flex;
+  justify-content: center;
+}
